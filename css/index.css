@@ -1,0 +1,56 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Navbar CSS */
+.profile-photo {
+  width: 80px;
+  border-radius: 50%;
+  border: 1.5px white solid;
+}
+
+.navbar-style {
+  background-color: #4371a7;
+}
+
+.link-nav {
+  margin-left: auto;
+}
+
+.nav-name-text {
+  color: white;
+  font-weight: 300;
+}
+
+/* Education and experience section CSS */
+.sec-e-container {
+  background-color: #4372a7c9;
+}
+
+.education-section {
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  font-weight: 900;
+}
+
+.experience-section {
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  font-weight: 900;
+}
+
+.text-h6 {
+  text-align: left;
+  word-break: break-word;
+}
+
+ul {
+  list-style-image: url(https://icongr.am/devicon/slack-original.svg?size=18&color=currentColor);
+}

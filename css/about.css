@@ -1,0 +1,146 @@
+.sec-about-container {
+  background-color: aliceblue;
+}
+
+.left-triangle {
+  height: 0;
+  width: 0;
+  border-top: 80px solid transparent;
+  border-bottom: 80px solid transparent;
+  border-right: 60px solid #4371a7;
+}
+
+.hexagone-profile {
+  height: 8rem;
+  width: 10rem;
+  border-top: 160px solid #4371a7;
+  border-right: 50px solid #4371a7;
+  border-left: 50px solid #4371a7;
+}
+
+.right-triangle {
+  height: 0;
+  width: 0;
+  border-top: 80px solid transparent;
+  border-bottom: 80px solid transparent;
+  border-left: 60px solid #4371a7;
+}
+
+.profile-photo-about {
+  width: 120px;
+  position: relative;
+  top: -9.3rem;
+  left: -1.8rem;
+  border: 2px white solid;
+}
+
+.me-section {
+  width: 40rem;
+  padding: 1rem;
+}
+
+.skills-section {
+  width: 40rem;
+  padding: 1rem;
+}
+
+.html-value {
+  width: 90%;
+  margin-left: 2rem;
+  background-color: lightblue;
+  color: white;
+  text-align: end;
+}
+
+.css-value {
+  width: 90%;
+  margin-left: 2rem;
+  background-color: lightblue;
+  color: white;
+  text-align: end;
+}
+
+.bootstrap-value {
+  width: 90%;
+  margin-left: 2rem;
+  background-color: lightblue;
+  color: white;
+  text-align: end;
+}
+
+.js-value {
+  width: 70%;
+  margin-left: 2rem;
+  background-color: lightblue;
+  color: white;
+  text-align: end;
+}
+
+.react-value {
+  width: 70%;
+  margin-left: 2rem;
+  background-color: lightblue;
+  color: white;
+  text-align: end;
+}
+
+.mongo-value {
+  width: 60%;
+  margin-left: 2rem;
+  background-color: lightblue;
+  color: white;
+  text-align: end;
+}
+
+.git-value {
+  width: 70%;
+  margin-left: 2rem;
+  background-color: lightblue;
+  color: white;
+  text-align: end;
+}
+
+.node-value {
+  width: 60%;
+  margin-left: 2rem;
+  background-color: lightblue;
+  color: white;
+  text-align: end;
+}
+
+.div-value {
+  background-color: rgba(187, 187, 187, 0.507);
+}
+
+@media only screen and (max-width: 510px) {
+  .html-value {
+    margin-left: 1.2rem;
+  }
+  .css-value {
+    margin-left: 1.2rem;
+  }
+
+  .bootstrap-value {
+    margin-left: 1.2rem;
+  }
+
+  .js-value {
+    margin-left: 1.2rem;
+  }
+
+  .react-value {
+    margin-left: 1.2rem;
+  }
+
+  .mongo-value {
+    margin-left: 1.2rem;
+  }
+
+  .git-value {
+    margin-left: 1.2rem;
+  }
+
+  .node-value {
+    margin-left: 1.2rem;
+  }
+}
