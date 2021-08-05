@@ -39,17 +39,16 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav link-nav">
-                    <a class="nav-link" aria-current="page" href="#">About</a>
-                    <a class="nav-link" href="#">Educación y experiencia</a>
-                    <a class="nav-link" href="#">Portfolio</a>
+                    <a class="nav-link" aria-current="page" href="#about">About</a>
+                    <a class="nav-link" href="#edexp">Educación y experiencia</a>
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
                 </div>
             </div>
         </div>
     </nav>
 
     <!-- About section -->
-    <section class="pt-4 pb-4 sec-about-container">
-        <h2 class="mt-3 mx-5">Sobre mí</h2>
+    <section id="about" class="pt-4 pb-4 sec-about-container">
         <div class="d-flex justify-content-center flex-wrap">
             <div class="flex-column me-section">
                 <div class="d-flex justify-content-center">
@@ -119,7 +118,7 @@
     </section>
 
     <!-- Education and experience section -->
-    <section class="d-flex justify-content-center pt-5 pb-5 flex-wrap sec-e-container">
+    <section id="edexp" class="d-flex justify-content-center pt-5 pb-5 flex-wrap sec-e-container">
         <div class="education-section">
             <h2 class="mx-auto mb-3 fw-bolder text-decoration-underline">Educación</h2>
             <ul class="mx-auto">
@@ -183,7 +182,8 @@
     </section>
 
     <!-- Portfolio Section -->
-    <section class="d-flex portfolio-section mt-4">
+    <section id="portfolio" class="d-flex portfolio-section mt-4">
+        <h3 class="fw-bold text-decoration-underline pt-3 pb-2">Portfolio</h3>
         <div class="card bg-dark text-dark card-portfolio">
             <img src="./img/preview-bootstrap-amd.jpg" class="card-img" alt="bootstrap-amd">
             <div class="card-img-overlay div-text-portfolio">
@@ -198,7 +198,7 @@
         </div>
         <div class="card bg-dark text-dark card-portfolio">
             <img src="./img/preview-js-amd.jpg" class="card-img" alt="bootstrap-amd">
-            <div class="card-img-overlay div-text-portfolio">
+            <div class="card-img-overlay div-text-portfolio-right">
                 <h5 class="card-title">Proyecto Javascript</h5>
                 <p class="card-text text-portfolio">Se utilizó CSS3, HTML, Bootstrap5 y JavaScript.</p>
                 <button class="btn btn-danger button-link">
