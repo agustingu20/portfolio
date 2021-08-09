@@ -119,3 +119,54 @@ ul {
   color: white;
   text-decoration: none;
 }
+
+/* Footer CSS */
+
+.footer-section {
+  height: 20rem;
+  width: 100%;
+  background-color: #a74643;
+}
+
+.socialmedia-list {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 11rem;
+}
+
+.linkedin-icon {
+  top: 3rem;
+  position: relative;
+  font-size: 40px;
+  z-index: 2;
+}
+
+.github-icon {
+  position: relative;
+  font-size: 40px;
+  z-index: 2;
+}
+
+.instagram-icon {
+  position: relative;
+  font-size: 40px;
+  z-index: 2;
+}
+
+.vertical-rectangle {
+  position: relative;
+  top: -58px;
+  left: 0;
+  height: 100%;
+  width: 50px;
+  background-color: #4372a7;
+}
+
+.horizontal-rectangle {
+  position: relative;
+  top: -377.5px;
+  height: 50px;
+  width: 100%;
+  background-color: #4372a7;
+}
