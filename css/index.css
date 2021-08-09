@@ -125,7 +125,7 @@ ul {
 .footer-section {
   height: 20rem;
   width: 100%;
-  background-color: #a74643;
+  background-color: #4372a7;
 }
 
 .socialmedia-list {
@@ -136,22 +136,24 @@ ul {
 }
 
 .linkedin-icon {
-  top: 3rem;
   position: relative;
+  top: 3rem;
   font-size: 40px;
-  z-index: 2;
+  z-index: 3;
 }
 
 .github-icon {
   position: relative;
+  top: 3rem;
   font-size: 40px;
-  z-index: 2;
+  z-index: 3;
 }
 
 .instagram-icon {
   position: relative;
+  top: 3rem;
   font-size: 40px;
-  z-index: 2;
+  z-index: 3;
 }
 
 .vertical-rectangle {
@@ -161,6 +163,7 @@ ul {
   height: 100%;
   width: 50px;
   background-color: #4372a7;
+  z-index: 2;
 }
 
 .horizontal-rectangle {
@@ -169,4 +172,19 @@ ul {
   height: 50px;
   width: 100%;
   background-color: #4372a7;
+  z-index: 2;
+}
+
+.triangle-footer {
+  clip-path: polygon(100% 6%, 4% 100%, 100% 100%);
+  position: relative;
+  top: -403px;
+  min-height: 295px;
+  max-height: 295px;
+  z-index: 2;
+}
+
+.image-footer {
+  min-height: 295px;
+  max-height: 295px;
 }
