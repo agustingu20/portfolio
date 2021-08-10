@@ -188,3 +188,32 @@ ul {
   min-height: 295px;
   max-height: 295px;
 }
+
+.qr {
+  position: relative;
+  top: -483px;
+  z-index: 2;
+}
+
+.qr-img {
+  width: 80px;
+  z-index: 2;
+}
+
+.copyright {
+  position: relative;
+  top: -685px;
+  margin-left: 25%;
+  z-index: 3;
+}
+
+.logo {
+  width: 80px;
+}
+
+.logo:hover {
+  background-color: white;
+  border: #4372a7 solid 1px;
+  padding: 2px;
+  border-radius: 20%;
+}
