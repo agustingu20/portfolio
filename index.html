@@ -32,7 +32,7 @@
 <body>
     <!-- Navbar -->
 
-    <nav class="navbar navbar-expand-lg navbar-style navbar-dark">
+    <nav id="Inicio" class="navbar navbar-expand-lg navbar-style navbar-dark">
         <div class="container-fluid">
             <div class="d-flex justify-content-start align-items-center">
                 <img src="./img/Foto agustin 4x4.jpg" class="profile-photo" alt="profile photo">
@@ -49,6 +49,16 @@
                     <a class="nav-link" href="#portfolio">Portfolio</a>
                 </div>
             </div>
+        </div>
+    </nav>
+
+    <!-- Up arrow -->
+
+    <nav class="nav-button-up">
+        <div>
+            <ul class="link-button-up">
+                <li><a href="#Inicio"><i class="fas fa-arrow-circle-up button-color-up"></i></li></a>
+            </ul>
         </div>
     </nav>
 
@@ -71,49 +81,69 @@
             </div>
             <div class="flex-column skills-section">
                 <div>
-                    <div class="">HTML</div>
+                    <div><img class="mb-2"
+                            src="https://icongr.am/devicon/html5-original-wordmark.svg?size=20&color=currentColor"
+                            alt=""> HTML</div>
                     <div class="div-value">
                         <div class="html-value">75%</div>
                     </div>
                 </div>
                 <div>
-                    <div class="mt-2">CSS</div>
+                    <div class="mt-2"><img class="mb-2"
+                            src="https://icongr.am/devicon/css3-original-wordmark.svg?size=20&color=currentColor"
+                            alt=""> CSS</div>
                     <div class="div-value">
                         <div class="css-value">75%</div>
                     </div>
                 </div>
                 <div>
-                    <div class="mt-2">Bootstrap</div>
+                    <div class="mt-2"><img class="mt-1 mb-1"
+                            src="https://icongr.am/devicon/bootstrap-plain-wordmark.svg?size=20&color=7300ff" alt="">
+                        Bootstrap
+                    </div>
                     <div class="div-value">
                         <div class="bootstrap-value">75%</div>
                     </div>
                 </div>
                 <div>
-                    <div class="mt-2">JavaScript</div>
+                    <div class="mt-2"><img class="mb-1"
+                            src="https://icongr.am/devicon/javascript-original.svg?size=20&color=currentColor" alt="">
+                        JavaScript
+                    </div>
                     <div class="div-value">
                         <div class="js-value">70%</div>
                     </div>
                 </div>
                 <div>
-                    <div class="mt-2">React</div>
+                    <div class="mt-2"><img class="mb-1"
+                            src="https://icongr.am/devicon/react-original-wordmark.svg?size=20&color=currentColor"
+                            alt=""> React</div>
                     <div class="div-value">
                         <div class="react-value">70%</div>
                     </div>
                 </div>
                 <div>
-                    <div class="mt-2">MongoDB</div>
+                    <div class="mt-2"><img class="mb-1"
+                            src="https://icongr.am/devicon/mongodb-original-wordmark.svg?size=20&color=currentColor"
+                            alt=""> MongoDB
+                    </div>
                     <div class="div-value">
                         <div class="mongo-value">60%</div>
                     </div>
                 </div>
                 <div>
-                    <div class="mt-2">Git</div>
+                    <div class="mt-2"><img class="mb-1"
+                            src="https://icongr.am/devicon/github-original-wordmark.svg?size=20&color=currentColor"
+                            alt=""> Git
+                    </div>
                     <div class="div-value">
                         <div class="git-value">70%</div>
                     </div>
                 </div>
                 <div>
-                    <div class="mt-2">NodeJS</div>
+                    <div class="mt-2"><img class="mb-1"
+                            src="https://icongr.am/devicon/nodejs-original.svg?size=20&color=currentColor" alt="">
+                        NodeJS</div>
                     <div class="div-value">
                         <div class="node-value">60%</div>
                     </div>
@@ -127,13 +157,13 @@
         <div class="education-section">
             <h2 class="mx-auto mb-3 fw-bolder text-decoration-underline">Educación</h2>
             <ul class="mx-auto">
-                <li class="mb-4">
+                <!-- <li class="mb-4">
                     <h4 class="fw-bolder">Secundario Polimodal</h4>
                     <h5 class="fw-bold">Colegio Pablo Apóstol</h5>
                     <h6 class="text-h6">Polimodal ciencias naturales. Matemáticas, Biología, Física, Química, Educación
                         Física.</h6>
                     <h6>Tucumán | Marzo 2006 - Diciembre 2009</h6>
-                </li>
+                </li> -->
                 <li class="mb-4">
                     <h4 class="fw-bolder">Ingeniero Industrial</h4>
                     <h5 class="fw-bold">Universidad Nacional de Tucumán</h5>
@@ -229,27 +259,28 @@
     <!-- Footer Section -->
     <footer class="footer-section">
         <ol class="socialmedia-list">
-            <li><i class="fab fa-linkedin linkedin-icon"></i></li>
-            <li><i class="fab fa-github github-icon"></i></li>
-            <li><i class="fab fa-instagram instagram-icon"></i></li>
+            <li><a href="https://www.linkedin.com/in/raulagustingomezurrutia" target="_blank"><i
+                        class="fab fa-linkedin linkedin-icon"></i></a>
+            </li>
+            <li><a href="https://github.com/agustingu20" target="_blank"><i class="fab fa-github github-icon"></i></a>
+            </li>
+            <li><a href="https://wa.me/543814470368" target="_blank"><i class="fab fa-whatsapp whatsapp-icon"></i></a>
+            </li>
         </ol>
         <div class="vertical-rectangle"></div>
         <div class="horizontal-rectangle"></div>
         <div class="triangle-footer"><img class="img-fluid w-100 image-footer" src="./img/footer-img.jpg" alt=""></div>
-        <div id="qrcode" class="qr">
+        <!-- <div id="qrcode" class="qr">
             <img class="qr-img"
                 src="https://www.codigos-qr.com/qr/php/qr_img.php?d=https%3A%2F%2Fcv-portfolio-agustingomezurrutia.netlify.app%2F&s=4&e=m"
                 alt="Generador de Códigos QR Codes" />
-        </div>
+        </div> -->
         <div class="copyright">
             <div class="text-center mb-3"><img class="logo" src="./img/logo.svg" alt=""></div>
             <p class="text-center text-light fw-bold">© Copyright 2021</p>
             <p class="text-center text-light fw-bold">Agustín Gómez Urrutia</p>
         </div>
     </footer>
-
-
-
 
     <!-- Optional JavaScript; choose one of the two! -->
 

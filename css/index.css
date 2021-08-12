@@ -25,6 +25,31 @@ body {
   font-weight: 300;
 }
 
+.nav-link:hover {
+  color: white;
+  font-weight: bolder;
+}
+
+/* CSS Boton subir */
+
+.nav-button-up {
+  font-size: 30px;
+  position: fixed;
+  bottom: 0;
+  right: 0px;
+  width: 40px;
+  z-index: 20;
+}
+
+.link-button-up {
+  padding: 0;
+  list-style: none;
+}
+
+.button-color-up {
+  color: #4371a7;
+}
+
 /* Education and experience section CSS */
 .sec-e-container {
   background-color: #4372a7c9;
@@ -137,23 +162,41 @@ ul {
 
 .linkedin-icon {
   position: relative;
-  top: 3rem;
+  top: 2rem;
   font-size: 40px;
   z-index: 3;
+  color: black;
 }
 
 .github-icon {
   position: relative;
-  top: 3rem;
+  top: 2rem;
   font-size: 40px;
   z-index: 3;
+  color: black;
 }
 
-.instagram-icon {
+.whatsapp-icon {
   position: relative;
-  top: 3rem;
+  top: 2rem;
   font-size: 40px;
   z-index: 3;
+  color: black;
+}
+
+.linkedin-icon:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.github-icon:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.whatsapp-icon:hover {
+  text-decoration: none;
+  color: white;
 }
 
 .vertical-rectangle {
@@ -202,7 +245,7 @@ ul {
 
 .copyright {
   position: relative;
-  top: -685px;
+  top: -606px;
   margin-left: 25%;
   z-index: 3;
 }
@@ -217,3 +260,15 @@ ul {
   padding: 2px;
   border-radius: 20%;
 }
+
+/* @media only screen and (max-width: 1024px) {
+  .qr {
+    display: none;
+  }
+  .copyright {
+    position: relative;
+    top: -606px;
+    margin-left: 25%;
+    z-index: 3;
+  }
+} */
